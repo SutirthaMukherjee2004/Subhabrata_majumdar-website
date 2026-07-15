@@ -303,6 +303,7 @@ footer.site-footer > .container-fluid {
 }
 
 .hero-facts-grid {
+  position: relative;
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 18px;
@@ -312,8 +313,33 @@ footer.site-footer > .container-fluid {
   border-bottom: 1px solid var(--line);
 }
 
+.hero-facts-grid::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  bottom: 18px;
+  left: 50%;
+  width: 1px;
+  background: rgba(21, 101, 183, 0.24);
+  transform: translateX(-50%) scaleY(0);
+  transform-origin: center;
+  animation: dividerJoin 720ms ease-out 120ms forwards;
+}
+
 .hero-facts-column {
   padding: 0 12px;
+  opacity: 0;
+  animation-duration: 720ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+.hero-facts-column:first-child {
+  animation-name: joinFromLeft;
+}
+
+.hero-facts-column:last-child {
+  animation-name: joinFromRight;
 }
 
 .hero-facts-column h2,
@@ -402,6 +428,56 @@ footer.site-footer > .container-fluid {
 
   to {
     transform: translateY(-50%);
+  }
+}
+
+@keyframes joinFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-34px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes joinFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(34px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes dividerJoin {
+  from {
+    transform: translateX(-50%) scaleY(0);
+  }
+
+  to {
+    transform: translateX(-50%) scaleY(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-facts-grid::before,
+  .hero-facts-column {
+    animation: none;
+  }
+
+  .hero-facts-grid::before {
+    transform: translateX(-50%) scaleY(1);
+  }
+
+  .hero-facts-column {
+    opacity: 1;
+    transform: none;
   }
 }
 
@@ -1214,6 +1290,17 @@ footer.site-footer .footer-title {
   .hero-facts-column,
   .announcement-layout h2 {
     padding: 0;
+  }
+
+  .hero-facts-grid::before {
+    top: 50%;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    width: auto;
+    height: 1px;
+    animation: none;
+    transform: translateY(-50%) scaleX(1);
   }
 
   .profile-icon-links {
