@@ -1,8 +1,6 @@
 window.SubhaResearchData = {
   "profile": {
     "name": "Subhabrata Majumdar",
-    "source": "OpenAlex",
-    "sourceUrl": "https://openalex.org/A5103860284",
     "lastKnownInstitution": "Tata Institute of Fundamental Research",
     "worksCount": 34,
     "citedByCount": 673,
@@ -143,7 +141,13 @@ window.SubhaResearchData = {
       "arxiv": "astro-ph/0305341",
       "doi": "10.1086/422829",
       "url": "https://arxiv.org/abs/astro-ph/0305341",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Majumdar, Subhabrata, Mohr, Joseph J.",
+      "collaborators": [
+        "Majumdar, Subhabrata",
+        "Mohr, Joseph J."
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 2,
@@ -174,7 +178,17 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/625a9bca4a0b6f8060ff81d0f85505be",
           "label": "Spectra for a subsample of seven galaxies in cluster SpARCS J003550-431224 (see Table~\\ref{tab:spectra}). The spectra have been smoothed with a 7-pixel ($11 \\AA"
         }
-      ]
+      ],
+      "fullAuthorText": "Wilson, Gillian, Muzzin, Adam, Yee, H.K.C., Lacy, Mark, Surace, Jason, Gilbank, David",
+      "collaborators": [
+        "Wilson, Gillian",
+        "Muzzin, Adam",
+        "Yee, H.K.C.",
+        "Lacy, Mark",
+        "Surace, Jason",
+        "Gilbank, David"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 3,
@@ -205,7 +219,17 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/aec224476f6dca6aa8a1e325cb52ea89",
           "label": "\\footnotesize Same as Figure 2 but for galaxies inthe cluster SpARCS J163852+403843."
         }
-      ]
+      ],
+      "fullAuthorText": "Muzzin, Adam, Wilson, Gillian, Yee, H.K.C., Hoekstra, Henk, Gilbank, David, Surace, Jason",
+      "collaborators": [
+        "Muzzin, Adam",
+        "Wilson, Gillian",
+        "Yee, H.K.C.",
+        "Hoekstra, Henk",
+        "Gilbank, David",
+        "Surace, Jason"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 4,
@@ -223,7 +247,17 @@ window.SubhaResearchData = {
       "arxiv": "astro-ph/0603588",
       "doi": "10.1086/509909",
       "url": "https://arxiv.org/abs/astro-ph/0603588",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Gladders, Michael D., Yee, H.K.C., Majumdar, Subhabrata, Barrientos, L.Felipe, Hoekstra, Henk, Hall, Patrick B.",
+      "collaborators": [
+        "Gladders, Michael D.",
+        "Yee, H.K.C.",
+        "Majumdar, Subhabrata",
+        "Barrientos, L.Felipe",
+        "Hoekstra, Henk",
+        "Hall, Patrick B."
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 5,
@@ -241,7 +275,13 @@ window.SubhaResearchData = {
       "arxiv": "astro-ph/0208002",
       "doi": "10.1086/346179",
       "url": "https://arxiv.org/abs/astro-ph/0208002",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Majumdar, Subhabrata, Mohr, Joseph J.",
+      "collaborators": [
+        "Majumdar, Subhabrata",
+        "Mohr, Joseph J."
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 6,
@@ -259,7 +299,14 @@ window.SubhaResearchData = {
       "arxiv": "0711.0518",
       "doi": "10.1088/0034-4885/71/6/066902",
       "url": "https://arxiv.org/abs/0711.0518",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Aghanim, Nabila, Majumdar, Subhabrata, Silk, Joseph",
+      "collaborators": [
+        "Aghanim, Nabila",
+        "Majumdar, Subhabrata",
+        "Silk, Joseph"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 7,
@@ -272,7 +319,14 @@ window.SubhaResearchData = {
       "venue": "Indian journal of community medicine 37 (3), 185-190 , 2012",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:XiSMed-E-HIC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:XiSMed-E-HIC",
+      "fullAuthorText": "P Gupta, A Khanna, S Majumdar",
+      "collaborators": [
+        "P Gupta",
+        "A Khanna",
+        "S Majumdar"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 8,
@@ -303,7 +357,15 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/21888e88127f776dd7805f5a4940c19f",
           "label": "Rotation curve of the Galaxy with the most-likely set of values of the Galactic model parameters listed in Table~\\ref{Table:mcmc_in_out}. The data with error ba"
         }
-      ]
+      ],
+      "fullAuthorText": "Bhattacharjee, Pijushpani, Chaudhury, Soumini, Kundu, Susmita, Majumdar, Subhabrata",
+      "collaborators": [
+        "Bhattacharjee, Pijushpani",
+        "Chaudhury, Soumini",
+        "Kundu, Susmita",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 9,
@@ -321,7 +383,13 @@ window.SubhaResearchData = {
       "arxiv": "astro-ph/0308464",
       "doi": "10.1086/381162",
       "url": "https://arxiv.org/abs/astro-ph/0308464",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "White, Martin J., Majumdar, Subhabrata",
+      "collaborators": [
+        "White, Martin J.",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 10,
@@ -352,7 +420,17 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/d7319ed21d205c6ed7d3c4868725c8b6",
           "label": "Reconstruction of the DM halo profile of the Draco dSph without (\\textit{blue}) and with (\\textit{red}) proper motions using the mass-orbit modeling algorithm o"
         }
-      ]
+      ],
+      "fullAuthorText": "Boehm, Céline, Krone-Martins, Alberto, Amorim, António, Anglada-Escudé, Guillem, Brandeker, Alexis, Courbin, Frederic",
+      "collaborators": [
+        "Boehm, Céline",
+        "Krone-Martins, Alberto",
+        "Amorim, António",
+        "Anglada-Escudé, Guillem",
+        "Brandeker, Alexis",
+        "Courbin, Frederic"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 11,
@@ -365,7 +443,17 @@ window.SubhaResearchData = {
       "venue": "Current medicinal chemistry 17 (19), 2049-2058 , 2010",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:738O_yMBCRsC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:738O_yMBCRsC",
+      "fullAuthorText": "S Majumdar, BC Mohanta, DR Chowdhury, R Banik, B Dinda, A Basak",
+      "collaborators": [
+        "S Majumdar",
+        "BC Mohanta",
+        "DR Chowdhury",
+        "R Banik",
+        "B Dinda",
+        "A Basak"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 12,
@@ -396,7 +484,16 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/a009d1a81e5eeb41d4c9e7ac4cb23133",
           "label": "~The likelihood functions for different parameters of equation of state. The upper ones are for the CPL parametrization, the middle ones for the GCG parametriza"
         }
-      ]
+      ],
+      "fullAuthorText": "Hazra, Dhiraj Kumar, Majumdar, Subhabrata, Pal, Supratik, Panda, Sudhakar, Sen, Anjan A.",
+      "collaborators": [
+        "Hazra, Dhiraj Kumar",
+        "Majumdar, Subhabrata",
+        "Pal, Supratik",
+        "Panda, Sudhakar",
+        "Sen, Anjan A."
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 13,
@@ -427,7 +524,15 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/47141a4009e9625f9a7a66e041d3346f",
           "label": "Hot CGM density profile for Milky Way type galaxy for the power-law model (blue solid line), the hydrostatic halo model (green dashed line), predictions by Fiel"
         }
-      ]
+      ],
+      "fullAuthorText": "Singh, Priyanka, Majumdar, Subhabrata, Nath, Biman B., Silk, Joseph",
+      "collaborators": [
+        "Singh, Priyanka",
+        "Majumdar, Subhabrata",
+        "Nath, Biman B.",
+        "Silk, Joseph"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 14,
@@ -458,7 +563,13 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/dbc2ca5ad8f6b805a717f7f33e772889",
           "label": "The dark(light) green regions indicate the projected 1-$\\sigma$ (2-$\\sigma$) confidence regions obtained from the analysis of mock cluster data for the eROSITA "
         }
-      ]
+      ],
+      "fullAuthorText": "Khedekar, Satej, Majumdar, Subhabrata",
+      "collaborators": [
+        "Khedekar, Satej",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 15,
@@ -476,7 +587,13 @@ window.SubhaResearchData = {
       "arxiv": "astro-ph/0402449",
       "doi": "10.1111/j.1365-2966.2004.07989.x",
       "url": "https://arxiv.org/abs/astro-ph/0402449",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Diego, Jose M., Majumdar, Subhabrata",
+      "collaborators": [
+        "Diego, Jose M.",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 16,
@@ -489,7 +606,18 @@ window.SubhaResearchData = {
       "venue": "arXiv preprint astro-ph/0701839 , 2007",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:IjCSPb-OGe4C"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:IjCSPb-OGe4C",
+      "fullAuthorText": "H. K. C. Yee, M. D. Gladders, D. G. Gilbank, S. Majumdar, H. Hoekstra, E. Ellingson, the RCS-2 Collaboration",
+      "collaborators": [
+        "H. K. C. Yee",
+        "M. D. Gladders",
+        "D. G. Gilbank",
+        "S. Majumdar",
+        "H. Hoekstra",
+        "E. Ellingson",
+        "the RCS-2 Collaboration"
+      ],
+      "authorSource": "arXiv metadata"
     },
     {
       "order": 17,
@@ -507,7 +635,14 @@ window.SubhaResearchData = {
       "arxiv": "1203.6535",
       "doi": "10.1088/0004-637X/759/2/87",
       "url": "https://arxiv.org/abs/1203.6535",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Chaudhuri, Anya, Nath, Biman B., Majumdar, Subhabrata",
+      "collaborators": [
+        "Chaudhuri, Anya",
+        "Nath, Biman B.",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 18,
@@ -525,7 +660,14 @@ window.SubhaResearchData = {
       "arxiv": "astro-ph/0012016",
       "doi": "10.1046/j.1365-8711.2001.04779.x",
       "url": "https://arxiv.org/abs/astro-ph/0012016",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Majumdar, Subhabrata, Nath, Biman, Chiba, Masashi",
+      "collaborators": [
+        "Majumdar, Subhabrata",
+        "Nath, Biman",
+        "Chiba, Masashi"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 19,
@@ -556,7 +698,14 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/bf230b9712f069c7db1825e638f92967",
           "label": "Constraints on $w$ {\\it (upper panel)}, and $\\sigma_8$ {\\it (lower panel)} from only number count observations for a two component survey design as a function $"
         }
-      ]
+      ],
+      "fullAuthorText": "Khedekar, Satej, Majumdar, Subhabrata, Das, Sudeep",
+      "collaborators": [
+        "Khedekar, Satej",
+        "Majumdar, Subhabrata",
+        "Das, Sudeep"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 20,
@@ -587,7 +736,17 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/029138d58907b8c90334e69596134be1",
           "label": "The curved spectra of A4038 phoenix for different regions of the phoenix marked in different colours as mentioned in \\citep{Kale_2018MNRAS}."
         }
-      ]
+      ],
+      "fullAuthorText": "Paul, Surajit, Kale, Ruta, Datta, Abhirup, Basu, Aritra, Sur, Sharanya, Parekh, Viral",
+      "collaborators": [
+        "Paul, Surajit",
+        "Kale, Ruta",
+        "Datta, Abhirup",
+        "Basu, Aritra",
+        "Sur, Sharanya",
+        "Parekh, Viral"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 21,
@@ -618,7 +777,14 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/8e6f224b2f2fa45ba4859196386ab839",
           "label": "Dark matter NFW (Top Left), ICM temperature (Top Right), ICM density (Bottom Left) and ICM entropy (Bottom Right) profiles for a subset of REXCESS clusters. The"
         }
-      ]
+      ],
+      "fullAuthorText": "Chaudhuri, Anya, Majumdar, Subhabrata, Nath, Biman B.",
+      "collaborators": [
+        "Chaudhuri, Anya",
+        "Majumdar, Subhabrata",
+        "Nath, Biman B."
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 22,
@@ -649,7 +815,15 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/bac0b0e84e6ea21d44d85eb56aea0b69",
           "label": "\\small Confidence contours of the Crossing hyperparameters using simulated future supernovae data ($1\\sigma$ CL in magenta, $2\\sigma$ CL in blue) and simulated "
         }
-      ]
+      ],
+      "fullAuthorText": "Shafieloo, Arman, Majumdar, Subhabrata, Sahni, Varun, Starobinsky, Alexei A.",
+      "collaborators": [
+        "Shafieloo, Arman",
+        "Majumdar, Subhabrata",
+        "Sahni, Varun",
+        "Starobinsky, Alexei A."
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 23,
@@ -680,7 +854,14 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/5579bd310fc61bc77413c5315033a9e8",
           "label": "Same as Fig.1 but for $S_{4}$."
         }
-      ]
+      ],
+      "fullAuthorText": "Gupta, Gaveshna, Majumdar, Subhabrata, Sen, Anjan A",
+      "collaborators": [
+        "Gupta, Gaveshna",
+        "Majumdar, Subhabrata",
+        "Sen, Anjan A"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 24,
@@ -698,7 +879,12 @@ window.SubhaResearchData = {
       "arxiv": "astro-ph/0102430",
       "doi": "10.1086/323159",
       "url": "https://arxiv.org/abs/astro-ph/0102430",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Majumdar, Subhabrata",
+      "collaborators": [
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 25,
@@ -711,7 +897,17 @@ window.SubhaResearchData = {
       "venue": "ASP , 2007",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:Y0pCki6q_DkC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:Y0pCki6q_DkC",
+      "fullAuthorText": "HKC Yee, MD Gladders, DG Gilbank, S Majumdar, H Hoekstra, ...",
+      "collaborators": [
+        "HKC Yee",
+        "MD Gladders",
+        "DG Gilbank",
+        "S Majumdar",
+        "H Hoekstra",
+        "..."
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 26,
@@ -742,7 +938,15 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/103cceae7c36983f6c784135f16cfeeb",
           "label": "Estimated median $90\\%$~CL upper-bound on spin-independent DM nucleon scattering cross-section $\\sigma_n$ for several experiments. The top panel shows the estim"
         }
-      ]
+      ],
+      "fullAuthorText": "Mandal, Sayan, Majumdar, Subhabrata, Rentala, Vikram, Basu Thakur, Ritoban",
+      "collaborators": [
+        "Mandal, Sayan",
+        "Majumdar, Subhabrata",
+        "Rentala, Vikram",
+        "Basu Thakur, Ritoban"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 27,
@@ -773,7 +977,15 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/fe5cb8327b89189a386865c9dd6f8f0f",
           "label": "Angular power spectrum of CMBR at 150 GHz from different processes and compared with data points from ACT (grey bars) and SPT (black bars). The thermal SZ from "
         }
-      ]
+      ],
+      "fullAuthorText": "Singh, Priyanka, Nath, Biman B., Majumdar, Subhabrata, Silk, Joseph",
+      "collaborators": [
+        "Singh, Priyanka",
+        "Nath, Biman B.",
+        "Majumdar, Subhabrata",
+        "Silk, Joseph"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 28,
@@ -791,7 +1003,13 @@ window.SubhaResearchData = {
       "arxiv": "1105.2826",
       "doi": "10.1111/j.1365-2966.2011.19033.x",
       "url": "https://arxiv.org/abs/1105.2826",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Nath, Biman B., Majumdar, Subhabrata",
+      "collaborators": [
+        "Nath, Biman B.",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 29,
@@ -822,7 +1040,13 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/022dcded1cecaf54862d4fde1e74fba5",
           "label": "Constraints from {\\it only $d_{\\rm A}$}, obtained from an overlap of Planck plus eROSITA (Planck priors imposed on $\\Omega_m$). The figures show 1-$\\sigma$ regi"
         }
-      ]
+      ],
+      "fullAuthorText": "Khedekar, Satej, Majumdar, Subhabrata",
+      "collaborators": [
+        "Khedekar, Satej",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 30,
@@ -840,7 +1064,13 @@ window.SubhaResearchData = {
       "arxiv": "astro-ph/0005423",
       "doi": "10.1086/317039",
       "url": "https://arxiv.org/abs/astro-ph/0005423",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Majumdar, Subhabrata, Nath, Biman",
+      "collaborators": [
+        "Majumdar, Subhabrata",
+        "Nath, Biman"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 31,
@@ -871,7 +1101,17 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/8452e905e74e4a0241f9371094bf9546",
           "label": "Excess entropy $\\Delta K$ as a function $m_g/m_{g,500}$ using benchmark AMR entropy profile. Left panel: without clumping, Right panel: with clumping. Upper pan"
         }
-      ]
+      ],
+      "fullAuthorText": "Iqbal, Asif, Majumdar, Subhabrata, Nath, Biman B., Ettori, Stefano, Eckert, Dominique, Malik, Manzoor A.",
+      "collaborators": [
+        "Iqbal, Asif",
+        "Majumdar, Subhabrata",
+        "Nath, Biman B.",
+        "Ettori, Stefano",
+        "Eckert, Dominique",
+        "Malik, Manzoor A."
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 32,
@@ -902,7 +1142,16 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/f266062c02a4315f35fb8638c2fcfe5f",
           "label": "The cross power spectra of the SZ effect (in RJ limit) and the distribution of the galaxies for $M_h:[10^{12.8},10^{13.0}] (h^{-1}M_{\\odot})$ and $z:[0.4,0.5]$ "
         }
-      ]
+      ],
+      "fullAuthorText": "Singh, Priyanka, Majumdar, Subhabrata, Nath, Biman B., Refregier, Alexandre, Silk, Joseph",
+      "collaborators": [
+        "Singh, Priyanka",
+        "Majumdar, Subhabrata",
+        "Nath, Biman B.",
+        "Refregier, Alexandre",
+        "Silk, Joseph"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 33,
@@ -933,7 +1182,13 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/53437cbebb317d35149fbfd67f4caba0",
           "label": "Left Panel: The gas fraction at $r_{500}$ is plotted against $M_{500}$ for the cluster. The topmost horizontal line is for $f_{\\rm gas} = \\frac{\\Omega_b}{\\Omega"
         }
-      ]
+      ],
+      "fullAuthorText": "Chaudhuri, Anya, Majumdar, Subhabrata",
+      "collaborators": [
+        "Chaudhuri, Anya",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 34,
@@ -964,7 +1219,15 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/27a3edc0262cff98dac21bb398993dfc",
           "label": "The differential redshift distribution of the AGNs expected to be resolved by eROSITA all-sky survey in the soft (solid red line) and the hard (dashed green lin"
         }
-      ]
+      ],
+      "fullAuthorText": "Singh, Priyanka, Refregier, Alexandre, Majumdar, Subhabrata, Nath, Biman B.",
+      "collaborators": [
+        "Singh, Priyanka",
+        "Refregier, Alexandre",
+        "Majumdar, Subhabrata",
+        "Nath, Biman B."
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 35,
@@ -982,7 +1245,15 @@ window.SubhaResearchData = {
       "arxiv": "astro-ph/0703262",
       "doi": "10.1016/j.newast.2007.03.003",
       "url": "https://arxiv.org/abs/astro-ph/0703262",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Cowsik, R., Ratnam, Charu, Bhattacharjee, Pijushpani, Majumdar, Subhabrata",
+      "collaborators": [
+        "Cowsik, R.",
+        "Ratnam, Charu",
+        "Bhattacharjee, Pijushpani",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 36,
@@ -1013,7 +1284,17 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/0c17be63c7d9fedd7cfce6092fba2f36",
           "label": "Left panel: Cavity power vs integrated 10 MHz-10 GHz radio power. The solid and dashed line represent the best fit lines calculated by the \\cite{O'Sullivan2011}"
         }
-      ]
+      ],
+      "fullAuthorText": "Iqbal, Asif, Kale, Ruta, Majumdar, Subhabrata, Nath, Biman B., Pandge, Mahadev, Sharma, Prateek",
+      "collaborators": [
+        "Iqbal, Asif",
+        "Kale, Ruta",
+        "Majumdar, Subhabrata",
+        "Nath, Biman B.",
+        "Pandge, Mahadev",
+        "Sharma, Prateek"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 37,
@@ -1044,7 +1325,17 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/402952ec3a6dc706f7f962c0fd16482d",
           "label": "This plot shows the effect on the $\\Delta E_{\\rm feedback}$ profile by introducing clumping factor using \\citet{Eckert2015} best fit. The addition of clumping p"
         }
-      ]
+      ],
+      "fullAuthorText": "Iqbal, Asif, Majumdar, Subhabrata, Nath, Biman B., Ettori, Stefano, Eckert, Dominique, Malik, Manzoor A.",
+      "collaborators": [
+        "Iqbal, Asif",
+        "Majumdar, Subhabrata",
+        "Nath, Biman B.",
+        "Ettori, Stefano",
+        "Eckert, Dominique",
+        "Malik, Manzoor A."
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 38,
@@ -1075,7 +1366,14 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/c064a6a66ac3f82161d76420061acf53",
           "label": "Differential Number density of electrons within $\\gamma$ and $\\gamma+d\\gamma$ inside a radio \\color{black}lobe \\color{black} for jets starting at different reds"
         }
-      ]
+      ],
+      "fullAuthorText": "Acharya, Sandeep Kumar, Majumdar, Subhabrata, Nath, Biman B.",
+      "collaborators": [
+        "Acharya, Sandeep Kumar",
+        "Majumdar, Subhabrata",
+        "Nath, Biman B."
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 39,
@@ -1088,7 +1386,48 @@ window.SubhaResearchData = {
       "venue": "arXiv preprint astro-ph/0507013 , 2005",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:hqOjcs7Dif8C"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:hqOjcs7Dif8C",
+      "fullAuthorText": "Z. Haiman, S. Allen, N. Bahcall, M. Bautz, H. Boehringer, S. Borgani, G. Bryan, B. Cabrera, C. Canizares, O. Citterio, A. Evrard, A. Finoguenov, R. Griffiths, G. Hasinger, P. Henry, K. Jahoda, G. Jernigan, S. Kahn, D. Lamb, S. Majumdar, J. Mohr, S. Molendi, R. Mushotzky, G. Pareschi, J. Peterson, R. Petre, P. Predehl, A. Rasmussen, G. Ricker, P. Ricker, P. Rosati, A. Sanderson, A. Stanford, M. Voit, S. Wang, N. White, S. White",
+      "collaborators": [
+        "Z. Haiman",
+        "S. Allen",
+        "N. Bahcall",
+        "M. Bautz",
+        "H. Boehringer",
+        "S. Borgani",
+        "G. Bryan",
+        "B. Cabrera",
+        "C. Canizares",
+        "O. Citterio",
+        "A. Evrard",
+        "A. Finoguenov",
+        "R. Griffiths",
+        "G. Hasinger",
+        "P. Henry",
+        "K. Jahoda",
+        "G. Jernigan",
+        "S. Kahn",
+        "D. Lamb",
+        "S. Majumdar",
+        "J. Mohr",
+        "S. Molendi",
+        "R. Mushotzky",
+        "G. Pareschi",
+        "J. Peterson",
+        "R. Petre",
+        "P. Predehl",
+        "A. Rasmussen",
+        "G. Ricker",
+        "P. Ricker",
+        "P. Rosati",
+        "A. Sanderson",
+        "A. Stanford",
+        "M. Voit",
+        "S. Wang",
+        "N. White",
+        "S. White"
+      ],
+      "authorSource": "arXiv metadata"
     },
     {
       "order": 40,
@@ -1106,7 +1445,13 @@ window.SubhaResearchData = {
       "arxiv": "astro-ph/9909087",
       "doi": "10.1046/j.1365-8711.2000.03153.x",
       "url": "https://arxiv.org/abs/astro-ph/9909087",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Majumdar, Subhabrata, Subrahmanyan, Ravi",
+      "collaborators": [
+        "Majumdar, Subhabrata",
+        "Subrahmanyan, Ravi"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 41,
@@ -1137,7 +1482,15 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/d953baebcb8d3d3d7092f65e08e538a7",
           "label": "Left-hand panel: Non-gravitational energy per particle as a function $m_g/m_g(0.5r_{500})$ for all the clusters. Right-hand panel: Comparison of the median of $"
         }
-      ]
+      ],
+      "fullAuthorText": "Iqbal, Asif, Kale, Ruta, Nath, Biman B., Majumdar, Subhabrata",
+      "collaborators": [
+        "Iqbal, Asif",
+        "Kale, Ruta",
+        "Nath, Biman B.",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 42,
@@ -1150,7 +1503,12 @@ window.SubhaResearchData = {
       "venue": "Pramana 63 (4), 871-875 , 2004",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:ULOm3_A8WrAC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:ULOm3_A8WrAC",
+      "fullAuthorText": "S Majumdar",
+      "collaborators": [
+        "S Majumdar"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 43,
@@ -1181,7 +1539,15 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/55aaa8d964e628547cdf58d41112c82b",
           "label": "ICM thermodynamics for the acoustic model. Evolution of pressure (top), entropy (middle) and temperature (bottom) profiles as a function of radius in acoustic h"
         }
-      ]
+      ],
+      "fullAuthorText": "Iqbal, Asif, Majumdar, Subhabrata, Nath, Biman B., Roychowdhury, Suparna",
+      "collaborators": [
+        "Iqbal, Asif",
+        "Majumdar, Subhabrata",
+        "Nath, Biman B.",
+        "Roychowdhury, Suparna"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 44,
@@ -1212,7 +1578,14 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/7c24d718684f0f28a1d55b1bba37b8d8",
           "label": "Triangle plot for the parameters of the CPL parametrization. The black, blue, and green regions are for CC+QSO, CC+QSO+$H_0$(PL18), and CC+QSO+$H_0$(SHOES) comb"
         }
-      ]
+      ],
+      "fullAuthorText": "Dinda, Bikash R., Singirikonda, Haveesh, Majumdar, Subhabrata",
+      "collaborators": [
+        "Dinda, Bikash R.",
+        "Singirikonda, Haveesh",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 45,
@@ -1243,7 +1616,16 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/fe062872d5f5f29ca7b47a14d81df902",
           "label": "The top two panels shows the variation of Correlation integral $C_q(R)$ with radius $R$ for $q=2$ and $q=-2$ for the SDSS main galaxy sample. The variation of $"
         }
-      ]
+      ],
+      "fullAuthorText": "Sarkar, Prakash, Majumdar, Subhabrata, Pandey, Biswajit, Kedia, Atul, Sarkar, Suman",
+      "collaborators": [
+        "Sarkar, Prakash",
+        "Majumdar, Subhabrata",
+        "Pandey, Biswajit",
+        "Kedia, Atul",
+        "Sarkar, Suman"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 46,
@@ -1274,7 +1656,17 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/4f7c581c894c5f494135b30a6919385d",
           "label": "\\footnotesize The number distribution of galaxy clusters in the \\thethree, shown as a function of \\( \\text{M}^{\\text{True}}_{500} \\). The magenta histogram repr"
         }
-      ]
+      ],
+      "fullAuthorText": "Iqbal, Asif, Majumdar, Subhabrata, Rasia, Elena, Pratt, Gabriel W., de Andres, Daniel, Melin, Jean-Baptiste",
+      "collaborators": [
+        "Iqbal, Asif",
+        "Majumdar, Subhabrata",
+        "Rasia, Elena",
+        "Pratt, Gabriel W.",
+        "de Andres, Daniel",
+        "Melin, Jean-Baptiste"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 47,
@@ -1287,7 +1679,17 @@ window.SubhaResearchData = {
       "venue": "Int J Biomed Res 9 (1), 12-17 , 2018",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:WbkHhVStYXYC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:WbkHhVStYXYC",
+      "fullAuthorText": "WB Rahaman, M Ghosh, A Chaudhari, S Majumdar, M Ghar, A Biswas",
+      "collaborators": [
+        "WB Rahaman",
+        "M Ghosh",
+        "A Chaudhari",
+        "S Majumdar",
+        "M Ghar",
+        "A Biswas"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 48,
@@ -1305,7 +1707,17 @@ window.SubhaResearchData = {
       "arxiv": "astro-ph/0604289",
       "doi": "",
       "url": "https://arxiv.org/abs/astro-ph/0604289",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Wilson, Gillian, Muzzin, Adam, Lacy, Mark, Yee, Howard, Surace, Jason, Lonsdale, Carol",
+      "collaborators": [
+        "Wilson, Gillian",
+        "Muzzin, Adam",
+        "Lacy, Mark",
+        "Yee, Howard",
+        "Surace, Jason",
+        "Lonsdale, Carol"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 49,
@@ -1336,7 +1748,14 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/35b5c6cca8e3d52038ec1d43a1cb9d80",
           "label": "Non-dimensional intensity $\\Delta I_x(=x^3\\Delta n)$ of spectral distortion as a function of frequency $\\nu=56.75\\times x$ GHz where $x=\\frac{\\rm{h}\\nu}{\\rm{k_B"
         }
-      ]
+      ],
+      "fullAuthorText": "Acharya, Sandeep Kumar, Majumdar, Subhabrata, Nath, Biman B.",
+      "collaborators": [
+        "Acharya, Sandeep Kumar",
+        "Majumdar, Subhabrata",
+        "Nath, Biman B."
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 50,
@@ -1349,7 +1768,12 @@ window.SubhaResearchData = {
       "venue": "Journal of Physics: Conference Series 140 (1), 012003 , 2008",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:KlAtU1dfN6UC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:KlAtU1dfN6UC",
+      "fullAuthorText": "S Majumdar",
+      "collaborators": [
+        "S Majumdar"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 51,
@@ -1362,7 +1786,12 @@ window.SubhaResearchData = {
       "venue": "Journal of the Royal Astronomical Society of Canada, Vol. 99, No. 4, p. 140 … , 2005",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:Zph67rFs4hoC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:Zph67rFs4hoC",
+      "fullAuthorText": "S Majumdar",
+      "collaborators": [
+        "S Majumdar"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 52,
@@ -1375,7 +1804,12 @@ window.SubhaResearchData = {
       "venue": "Indian Journal of Physics Section B 73 (6), 835-842 , 1999",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:kNdYIx-mwKoC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:kNdYIx-mwKoC",
+      "fullAuthorText": "S Majumdar",
+      "collaborators": [
+        "S Majumdar"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 53,
@@ -1406,7 +1840,13 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/378bdc85315bba6152f8cac8098dfaa1",
           "label": "The ratio of stellar mass ($M_{\\m{star}}$) to halo mass ($M_{200}$) as a function of $M_{200}$ for various stellar mass-halo mass (SMHM) relations used in this "
         }
-      ]
+      ],
+      "fullAuthorText": "Manju, Manush, Majumdar, Subhabrata",
+      "collaborators": [
+        "Manju, Manush",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 54,
@@ -1437,7 +1877,13 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/fe97029313772ab6f123a21183f6860f",
           "label": "Profile of (a)neutral hydrogen fraction, (b)gas temperature as a function of distance from the quasar with $\\dot{N}=10^{57}$s$^{-1}$, redshift as shown in the f"
         }
-      ]
+      ],
+      "fullAuthorText": "Acharya, Sandeep Kumar, Majumdar, Subhabrata",
+      "collaborators": [
+        "Acharya, Sandeep Kumar",
+        "Majumdar, Subhabrata"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 55,
@@ -1468,7 +1914,14 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/35b5c6cca8e3d52038ec1d43a1cb9d80",
           "label": "Non-dimensional intensity $\\Delta I_x(=x^3\\Delta n)$ of spectral distortion as a function of frequency $\\nu=56.75\\times x$ GHz where $x=\\frac{\\rm{h}\\nu}{\\rm{k_B"
         }
-      ]
+      ],
+      "fullAuthorText": "Acharya, Sandeep Kumar, Majumdar, Subhabrata, Nath, Biman B.",
+      "collaborators": [
+        "Acharya, Sandeep Kumar",
+        "Majumdar, Subhabrata",
+        "Nath, Biman B."
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 56,
@@ -1481,7 +1934,17 @@ window.SubhaResearchData = {
       "venue": "Proceedings of the DAE Symp. on Nucl. Phys 66, 280 , 2022",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:l7t_Zn2s7bgC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:l7t_Zn2s7bgC",
+      "fullAuthorText": "P Pallav, SD Gupta, S Bhattacharya, S Bhattachrayya, G Mukherjee, ...",
+      "collaborators": [
+        "P Pallav",
+        "SD Gupta",
+        "S Bhattacharya",
+        "S Bhattachrayya",
+        "G Mukherjee",
+        "..."
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 57,
@@ -1494,7 +1957,15 @@ window.SubhaResearchData = {
       "venue": "Mon. Not. Roy. Astron. Soc. 518 (2), 2735-2745 , 2022",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:NhqRSupF_l8C"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:NhqRSupF_l8C",
+      "fullAuthorText": "A Iqbal, S Majumdar, BB Nath, S Roychowdhury",
+      "collaborators": [
+        "A Iqbal",
+        "S Majumdar",
+        "BB Nath",
+        "S Roychowdhury"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 58,
@@ -1507,7 +1978,17 @@ window.SubhaResearchData = {
       "venue": "Focus 13 (2), 4 , 2021",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:K3LRdlH-MEoC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:K3LRdlH-MEoC",
+      "fullAuthorText": "P Pallav, SD Gupta, S Bhattacharya, S Bhattachrayya, G Mukherjee, ...",
+      "collaborators": [
+        "P Pallav",
+        "SD Gupta",
+        "S Bhattacharya",
+        "S Bhattachrayya",
+        "G Mukherjee",
+        "..."
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 59,
@@ -1520,7 +2001,12 @@ window.SubhaResearchData = {
       "venue": "",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:blknAaTinKkC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:blknAaTinKkC",
+      "fullAuthorText": "S Majumdar",
+      "collaborators": [
+        "S Majumdar"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 60,
@@ -1533,7 +2019,12 @@ window.SubhaResearchData = {
       "venue": "Proceedings of the advances in astroparticle physics and cosmology, 1-1 , 2015",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:M05iB0D1s5AC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:M05iB0D1s5AC",
+      "fullAuthorText": "S Majumdar",
+      "collaborators": [
+        "S Majumdar"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 61,
@@ -1546,7 +2037,12 @@ window.SubhaResearchData = {
       "venue": "",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:IWHjjKOFINEC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:IWHjjKOFINEC",
+      "fullAuthorText": "S Majumdar",
+      "collaborators": [
+        "S Majumdar"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 62,
@@ -1559,7 +2055,19 @@ window.SubhaResearchData = {
       "venue": "NOAO Proposal, 486 , 2009",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:ZeXyd9-uunAC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:ZeXyd9-uunAC",
+      "fullAuthorText": "G Wilson, R Demarco, A Rettura, A Muzzin, H Yee, J Surace, M Lacy, ...",
+      "collaborators": [
+        "G Wilson",
+        "R Demarco",
+        "A Rettura",
+        "A Muzzin",
+        "H Yee",
+        "J Surace",
+        "M Lacy",
+        "..."
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 63,
@@ -1572,7 +2080,19 @@ window.SubhaResearchData = {
       "venue": "NOAO Proposal, 327 , 2009",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:_kc_bZDykSQC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:_kc_bZDykSQC",
+      "fullAuthorText": "G Wilson, H Yee, A Muzzin, M Balogh, R Demarco, E Ellingson, J Gardner, ...",
+      "collaborators": [
+        "G Wilson",
+        "H Yee",
+        "A Muzzin",
+        "M Balogh",
+        "R Demarco",
+        "E Ellingson",
+        "J Gardner",
+        "..."
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 64,
@@ -1590,7 +2110,14 @@ window.SubhaResearchData = {
       "arxiv": "",
       "doi": "10.1142/9789812810830_0004",
       "url": "https://doi.org/10.1142/9789812810830_0004",
-      "figures": []
+      "figures": [],
+      "fullAuthorText": "Majumdar, Subhabrata, Nath, Biman B., Chiba, Masashi",
+      "collaborators": [
+        "Majumdar, Subhabrata",
+        "Nath, Biman B.",
+        "Chiba, Masashi"
+      ],
+      "authorSource": "INSPIRE author record"
     },
     {
       "order": 65,
@@ -1603,7 +2130,13 @@ window.SubhaResearchData = {
       "venue": "Pramana 53 (6), 971-975 , 1999",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:Wp0gIr-vW9MC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:Wp0gIr-vW9MC",
+      "fullAuthorText": "S Majumdar, R Subrahamanyan",
+      "collaborators": [
+        "S Majumdar",
+        "R Subrahamanyan"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 66,
@@ -1616,7 +2149,13 @@ window.SubhaResearchData = {
       "venue": "",
       "source": "Google Scholar",
       "inspireCitations": null,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:08ZZubdj9fEC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=raK00aQAAAAJ&pagesize=100&citation_for_view=raK00aQAAAAJ:08ZZubdj9fEC",
+      "fullAuthorText": "S Khedekar, S Majumdar",
+      "collaborators": [
+        "S Khedekar",
+        "S Majumdar"
+      ],
+      "authorSource": "Google Scholar profile row"
     },
     {
       "order": 67,
@@ -1647,12 +2186,21 @@ window.SubhaResearchData = {
           "url": "https://inspirehep.net/files/625a9bca4a0b6f8060ff81d0f85505be",
           "label": "Spectra for a subsample of seven galaxies in cluster SpARCS J003550-431224 (see Table~\\ref{tab:spectra}). The spectra have been smoothed with a 7-pixel ($11 \\AA"
         }
-      ]
+      ],
+      "fullAuthorText": "Wilson, Gillian, Muzzin, Adam, Yee, H.K.C., Lacy, Mark, Surace, Jason, Gilbank, David",
+      "collaborators": [
+        "Wilson, Gillian",
+        "Muzzin, Adam",
+        "Yee, H.K.C.",
+        "Lacy, Mark",
+        "Surace, Jason",
+        "Gilbank, David"
+      ],
+      "authorSource": "INSPIRE author record"
     }
   ],
   "links": {
     "googleScholar": "https://scholar.google.com/citations?user=raK00aQAAAAJ&hl=en",
-    "openalex": "https://openalex.org/A5103860284",
     "inspire": "https://inspirehep.net/authors/1025631"
   },
   "googleScholar": {
@@ -1775,7 +2323,101 @@ window.SubhaResearchData = {
         "citations": 51
       }
     ],
-    "fetched": "15 July 2026"
+    "fetched": "15 July 2026",
+    "papersByYear": [
+      {
+        "year": 1999,
+        "papers": 2
+      },
+      {
+        "year": 2000,
+        "papers": 2
+      },
+      {
+        "year": 2001,
+        "papers": 3
+      },
+      {
+        "year": 2003,
+        "papers": 1
+      },
+      {
+        "year": 2004,
+        "papers": 4
+      },
+      {
+        "year": 2005,
+        "papers": 2
+      },
+      {
+        "year": 2006,
+        "papers": 1
+      },
+      {
+        "year": 2007,
+        "papers": 4
+      },
+      {
+        "year": 2008,
+        "papers": 2
+      },
+      {
+        "year": 2009,
+        "papers": 4
+      },
+      {
+        "year": 2010,
+        "papers": 3
+      },
+      {
+        "year": 2011,
+        "papers": 3
+      },
+      {
+        "year": 2012,
+        "papers": 3
+      },
+      {
+        "year": 2013,
+        "papers": 4
+      },
+      {
+        "year": 2015,
+        "papers": 3
+      },
+      {
+        "year": 2016,
+        "papers": 4
+      },
+      {
+        "year": 2017,
+        "papers": 4
+      },
+      {
+        "year": 2018,
+        "papers": 3
+      },
+      {
+        "year": 2019,
+        "papers": 1
+      },
+      {
+        "year": 2021,
+        "papers": 2
+      },
+      {
+        "year": 2022,
+        "papers": 3
+      },
+      {
+        "year": 2023,
+        "papers": 6
+      },
+      {
+        "year": 2025,
+        "papers": 1
+      }
+    ]
   },
   "inspire": {
     "url": "https://inspirehep.net/authors/1025631",
@@ -1783,13 +2425,6 @@ window.SubhaResearchData = {
     "citations": 1324,
     "matchedGoogleScholarPapers": 47,
     "fetched": "15 July 2026"
-  },
-  "openAlex": {
-    "url": "https://openalex.org/A5103860284",
-    "worksCount": 34,
-    "citedByCount": 673,
-    "hIndex": 11,
-    "i10Index": 12
   },
   "inspirePapers": [
     {
@@ -2932,6 +3567,616 @@ window.SubhaResearchData = {
       "url": "https://arxiv.org/abs/astro-ph/9909087",
       "inspire": "https://inspirehep.net/literature/519207",
       "figures": []
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Nath, Biman B.",
+      "paperCount": 16
+    },
+    {
+      "name": "Iqbal, Asif",
+      "paperCount": 6
+    },
+    {
+      "name": "Acharya, Sandeep Kumar",
+      "paperCount": 4
+    },
+    {
+      "name": "Muzzin, Adam",
+      "paperCount": 4
+    },
+    {
+      "name": "Silk, Joseph",
+      "paperCount": 4
+    },
+    {
+      "name": "Singh, Priyanka",
+      "paperCount": 4
+    },
+    {
+      "name": "Surace, Jason",
+      "paperCount": 4
+    },
+    {
+      "name": "Wilson, Gillian",
+      "paperCount": 4
+    },
+    {
+      "name": "Yee, H.K.C.",
+      "paperCount": 4
+    },
+    {
+      "name": "Chaudhuri, Anya",
+      "paperCount": 3
+    },
+    {
+      "name": "Gilbank, David",
+      "paperCount": 3
+    },
+    {
+      "name": "Kale, Ruta",
+      "paperCount": 3
+    },
+    {
+      "name": "Khedekar, Satej",
+      "paperCount": 3
+    },
+    {
+      "name": "Lacy, Mark",
+      "paperCount": 3
+    },
+    {
+      "name": "A Muzzin",
+      "paperCount": 2
+    },
+    {
+      "name": "Bhattacharjee, Pijushpani",
+      "paperCount": 2
+    },
+    {
+      "name": "Chiba, Masashi",
+      "paperCount": 2
+    },
+    {
+      "name": "Eckert, Dominique",
+      "paperCount": 2
+    },
+    {
+      "name": "Ettori, Stefano",
+      "paperCount": 2
+    },
+    {
+      "name": "G Mukherjee",
+      "paperCount": 2
+    },
+    {
+      "name": "G Wilson",
+      "paperCount": 2
+    },
+    {
+      "name": "H Yee",
+      "paperCount": 2
+    },
+    {
+      "name": "Hoekstra, Henk",
+      "paperCount": 2
+    },
+    {
+      "name": "Malik, Manzoor A.",
+      "paperCount": 2
+    },
+    {
+      "name": "Mohr, Joseph J.",
+      "paperCount": 2
+    },
+    {
+      "name": "Nath, Biman",
+      "paperCount": 2
+    },
+    {
+      "name": "P Pallav",
+      "paperCount": 2
+    },
+    {
+      "name": "R Demarco",
+      "paperCount": 2
+    },
+    {
+      "name": "Refregier, Alexandre",
+      "paperCount": 2
+    },
+    {
+      "name": "S Bhattacharya",
+      "paperCount": 2
+    },
+    {
+      "name": "S Bhattachrayya",
+      "paperCount": 2
+    },
+    {
+      "name": "SD Gupta",
+      "paperCount": 2
+    },
+    {
+      "name": "A Basak",
+      "paperCount": 1
+    },
+    {
+      "name": "A Biswas",
+      "paperCount": 1
+    },
+    {
+      "name": "A Chaudhari",
+      "paperCount": 1
+    },
+    {
+      "name": "A Iqbal",
+      "paperCount": 1
+    },
+    {
+      "name": "A Khanna",
+      "paperCount": 1
+    },
+    {
+      "name": "A Rettura",
+      "paperCount": 1
+    },
+    {
+      "name": "A. Evrard",
+      "paperCount": 1
+    },
+    {
+      "name": "A. Finoguenov",
+      "paperCount": 1
+    },
+    {
+      "name": "A. Rasmussen",
+      "paperCount": 1
+    },
+    {
+      "name": "A. Sanderson",
+      "paperCount": 1
+    },
+    {
+      "name": "A. Stanford",
+      "paperCount": 1
+    },
+    {
+      "name": "Aghanim, Nabila",
+      "paperCount": 1
+    },
+    {
+      "name": "Amorim, António",
+      "paperCount": 1
+    },
+    {
+      "name": "Anglada-Escudé, Guillem",
+      "paperCount": 1
+    },
+    {
+      "name": "B Dinda",
+      "paperCount": 1
+    },
+    {
+      "name": "B. Cabrera",
+      "paperCount": 1
+    },
+    {
+      "name": "BB Nath",
+      "paperCount": 1
+    },
+    {
+      "name": "BC Mohanta",
+      "paperCount": 1
+    },
+    {
+      "name": "Barrientos, L.Felipe",
+      "paperCount": 1
+    },
+    {
+      "name": "Basu Thakur, Ritoban",
+      "paperCount": 1
+    },
+    {
+      "name": "Basu, Aritra",
+      "paperCount": 1
+    },
+    {
+      "name": "Boehm, Céline",
+      "paperCount": 1
+    },
+    {
+      "name": "Brandeker, Alexis",
+      "paperCount": 1
+    },
+    {
+      "name": "C. Canizares",
+      "paperCount": 1
+    },
+    {
+      "name": "Chaudhury, Soumini",
+      "paperCount": 1
+    },
+    {
+      "name": "Courbin, Frederic",
+      "paperCount": 1
+    },
+    {
+      "name": "Cowsik, R.",
+      "paperCount": 1
+    },
+    {
+      "name": "D. G. Gilbank",
+      "paperCount": 1
+    },
+    {
+      "name": "D. Lamb",
+      "paperCount": 1
+    },
+    {
+      "name": "DG Gilbank",
+      "paperCount": 1
+    },
+    {
+      "name": "DR Chowdhury",
+      "paperCount": 1
+    },
+    {
+      "name": "Das, Sudeep",
+      "paperCount": 1
+    },
+    {
+      "name": "Datta, Abhirup",
+      "paperCount": 1
+    },
+    {
+      "name": "Diego, Jose M.",
+      "paperCount": 1
+    },
+    {
+      "name": "Dinda, Bikash R.",
+      "paperCount": 1
+    },
+    {
+      "name": "E Ellingson",
+      "paperCount": 1
+    },
+    {
+      "name": "E. Ellingson",
+      "paperCount": 1
+    },
+    {
+      "name": "G. Bryan",
+      "paperCount": 1
+    },
+    {
+      "name": "G. Hasinger",
+      "paperCount": 1
+    },
+    {
+      "name": "G. Jernigan",
+      "paperCount": 1
+    },
+    {
+      "name": "G. Pareschi",
+      "paperCount": 1
+    },
+    {
+      "name": "G. Ricker",
+      "paperCount": 1
+    },
+    {
+      "name": "Gladders, Michael D.",
+      "paperCount": 1
+    },
+    {
+      "name": "Gupta, Gaveshna",
+      "paperCount": 1
+    },
+    {
+      "name": "H Hoekstra",
+      "paperCount": 1
+    },
+    {
+      "name": "H. Boehringer",
+      "paperCount": 1
+    },
+    {
+      "name": "H. Hoekstra",
+      "paperCount": 1
+    },
+    {
+      "name": "H. K. C. Yee",
+      "paperCount": 1
+    },
+    {
+      "name": "HKC Yee",
+      "paperCount": 1
+    },
+    {
+      "name": "Hall, Patrick B.",
+      "paperCount": 1
+    },
+    {
+      "name": "Hazra, Dhiraj Kumar",
+      "paperCount": 1
+    },
+    {
+      "name": "J Gardner",
+      "paperCount": 1
+    },
+    {
+      "name": "J Surace",
+      "paperCount": 1
+    },
+    {
+      "name": "J. Mohr",
+      "paperCount": 1
+    },
+    {
+      "name": "J. Peterson",
+      "paperCount": 1
+    },
+    {
+      "name": "K. Jahoda",
+      "paperCount": 1
+    },
+    {
+      "name": "Kedia, Atul",
+      "paperCount": 1
+    },
+    {
+      "name": "Krone-Martins, Alberto",
+      "paperCount": 1
+    },
+    {
+      "name": "Kundu, Susmita",
+      "paperCount": 1
+    },
+    {
+      "name": "Lonsdale, Carol",
+      "paperCount": 1
+    },
+    {
+      "name": "M Balogh",
+      "paperCount": 1
+    },
+    {
+      "name": "M Ghar",
+      "paperCount": 1
+    },
+    {
+      "name": "M Ghosh",
+      "paperCount": 1
+    },
+    {
+      "name": "M Lacy",
+      "paperCount": 1
+    },
+    {
+      "name": "M. Bautz",
+      "paperCount": 1
+    },
+    {
+      "name": "M. D. Gladders",
+      "paperCount": 1
+    },
+    {
+      "name": "M. Voit",
+      "paperCount": 1
+    },
+    {
+      "name": "MD Gladders",
+      "paperCount": 1
+    },
+    {
+      "name": "Mandal, Sayan",
+      "paperCount": 1
+    },
+    {
+      "name": "Manju, Manush",
+      "paperCount": 1
+    },
+    {
+      "name": "Melin, Jean-Baptiste",
+      "paperCount": 1
+    },
+    {
+      "name": "N. Bahcall",
+      "paperCount": 1
+    },
+    {
+      "name": "N. White",
+      "paperCount": 1
+    },
+    {
+      "name": "O. Citterio",
+      "paperCount": 1
+    },
+    {
+      "name": "P Gupta",
+      "paperCount": 1
+    },
+    {
+      "name": "P. Henry",
+      "paperCount": 1
+    },
+    {
+      "name": "P. Predehl",
+      "paperCount": 1
+    },
+    {
+      "name": "P. Ricker",
+      "paperCount": 1
+    },
+    {
+      "name": "P. Rosati",
+      "paperCount": 1
+    },
+    {
+      "name": "Pal, Supratik",
+      "paperCount": 1
+    },
+    {
+      "name": "Panda, Sudhakar",
+      "paperCount": 1
+    },
+    {
+      "name": "Pandey, Biswajit",
+      "paperCount": 1
+    },
+    {
+      "name": "Pandge, Mahadev",
+      "paperCount": 1
+    },
+    {
+      "name": "Parekh, Viral",
+      "paperCount": 1
+    },
+    {
+      "name": "Paul, Surajit",
+      "paperCount": 1
+    },
+    {
+      "name": "Pratt, Gabriel W.",
+      "paperCount": 1
+    },
+    {
+      "name": "R Banik",
+      "paperCount": 1
+    },
+    {
+      "name": "R Subrahamanyan",
+      "paperCount": 1
+    },
+    {
+      "name": "R. Griffiths",
+      "paperCount": 1
+    },
+    {
+      "name": "R. Mushotzky",
+      "paperCount": 1
+    },
+    {
+      "name": "R. Petre",
+      "paperCount": 1
+    },
+    {
+      "name": "Rasia, Elena",
+      "paperCount": 1
+    },
+    {
+      "name": "Ratnam, Charu",
+      "paperCount": 1
+    },
+    {
+      "name": "Rentala, Vikram",
+      "paperCount": 1
+    },
+    {
+      "name": "Roychowdhury, Suparna",
+      "paperCount": 1
+    },
+    {
+      "name": "S Khedekar",
+      "paperCount": 1
+    },
+    {
+      "name": "S Roychowdhury",
+      "paperCount": 1
+    },
+    {
+      "name": "S. Allen",
+      "paperCount": 1
+    },
+    {
+      "name": "S. Borgani",
+      "paperCount": 1
+    },
+    {
+      "name": "S. Kahn",
+      "paperCount": 1
+    },
+    {
+      "name": "S. Molendi",
+      "paperCount": 1
+    },
+    {
+      "name": "S. Wang",
+      "paperCount": 1
+    },
+    {
+      "name": "S. White",
+      "paperCount": 1
+    },
+    {
+      "name": "Sahni, Varun",
+      "paperCount": 1
+    },
+    {
+      "name": "Sarkar, Prakash",
+      "paperCount": 1
+    },
+    {
+      "name": "Sarkar, Suman",
+      "paperCount": 1
+    },
+    {
+      "name": "Sen, Anjan A",
+      "paperCount": 1
+    },
+    {
+      "name": "Sen, Anjan A.",
+      "paperCount": 1
+    },
+    {
+      "name": "Shafieloo, Arman",
+      "paperCount": 1
+    },
+    {
+      "name": "Sharma, Prateek",
+      "paperCount": 1
+    },
+    {
+      "name": "Singirikonda, Haveesh",
+      "paperCount": 1
+    },
+    {
+      "name": "Starobinsky, Alexei A.",
+      "paperCount": 1
+    },
+    {
+      "name": "Subrahmanyan, Ravi",
+      "paperCount": 1
+    },
+    {
+      "name": "Sur, Sharanya",
+      "paperCount": 1
+    },
+    {
+      "name": "WB Rahaman",
+      "paperCount": 1
+    },
+    {
+      "name": "White, Martin J.",
+      "paperCount": 1
+    },
+    {
+      "name": "Yee, Howard",
+      "paperCount": 1
+    },
+    {
+      "name": "Z. Haiman",
+      "paperCount": 1
+    },
+    {
+      "name": "de Andres, Daniel",
+      "paperCount": 1
+    },
+    {
+      "name": "the RCS-2 Collaboration",
+      "paperCount": 1
     }
   ]
 };

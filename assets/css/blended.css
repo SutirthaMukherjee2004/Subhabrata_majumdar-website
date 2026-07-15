@@ -267,9 +267,49 @@ footer.site-footer > .container-fluid {
   border: 0;
 }
 
+.hero-interests {
+  margin-top: 20pt;
+}
+
+.hero-interests h2 {
+  margin-top: 0;
+  font-size: 24pt;
+}
+
+.interest-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.interest-card {
+  min-height: 116px;
+  padding: 12px;
+  background: rgba(21, 101, 183, 0.05);
+  border: 1px solid rgba(21, 101, 183, 0.22);
+}
+
+.interest-card h3 {
+  margin-top: 0;
+  color: var(--theme);
+  font-size: 15pt;
+}
+
+.interest-card .fact-list {
+  margin-top: 6px;
+  padding-left: 18px;
+}
+
+.interest-card .fact-list li {
+  margin-bottom: 3px;
+  font-size: 10.5pt;
+  line-height: 1.35;
+}
+
 .home-facts-grid {
   display: grid;
-  grid-template-columns: 58% 42%;
+  grid-template-columns: 50% 50%;
   gap: 24px;
   padding: 24px 0;
   border-top: 1px solid var(--line);
@@ -313,6 +353,7 @@ footer.site-footer > .container-fluid {
 
 .announcement-track-wrap {
   min-width: 0;
+  height: 172px;
   overflow: hidden;
   border-left: 3px solid var(--theme);
   background: rgba(21, 101, 183, 0.06);
@@ -320,8 +361,9 @@ footer.site-footer > .container-fluid {
 
 .announcement-track {
   display: flex;
-  width: max-content;
-  animation: announcementScroll 34s linear infinite;
+  flex-direction: column;
+  width: 100%;
+  animation: announcementScroll 18s linear infinite;
 }
 
 .announcement-track:hover,
@@ -333,12 +375,13 @@ footer.site-footer > .container-fluid {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  min-height: 48px;
-  padding: 0 24px;
+  min-height: 43px;
+  padding: 0 18px;
   color: var(--text);
   font-size: 12pt;
-  white-space: nowrap;
+  white-space: normal;
   text-decoration: none;
+  border-bottom: 1px solid rgba(21, 101, 183, 0.14);
 }
 
 .announcement-track a:hover,
@@ -358,11 +401,11 @@ footer.site-footer > .container-fluid {
 
 @keyframes announcementScroll {
   from {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 
   to {
-    transform: translateX(-50%);
+    transform: translateY(-50%);
   }
 }
 
@@ -498,6 +541,7 @@ footer.site-footer > .container-fluid {
 .hover-plots {
   position: absolute;
   inset: 0;
+  z-index: 1;
   opacity: 0;
   pointer-events: none;
   background: #ffffff;
@@ -516,22 +560,45 @@ footer.site-footer > .container-fluid {
   background: #ffffff;
 }
 
-.plot-count {
+.plot-preview {
   position: absolute;
   right: 10px;
   bottom: 10px;
   z-index: 2;
-  min-width: 42px;
-  padding: 6px 8px;
+  display: flex;
+  align-items: stretch;
+  width: min(58%, 218px);
+  height: 64px;
+  overflow: hidden;
+  pointer-events: none;
+  background: #ffffff;
+  border: 1px solid rgba(28, 28, 28, 0.18);
+  box-shadow: 0 2px 8px rgba(28, 28, 28, 0.22);
+}
+
+.plot-preview img {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 100%;
+  object-fit: cover;
+  border-right: 1px solid rgba(28, 28, 28, 0.16);
+}
+
+.plot-count {
+  display: flex;
+  flex: 0 0 46px;
+  align-items: center;
+  justify-content: center;
   color: #ffffff;
   background: rgba(21, 101, 183, 0.88);
   font-weight: 700;
+  font-size: 18pt;
   line-height: 1.2;
   text-align: center;
 }
 
-.research-card:hover .plot-count,
-.research-card:focus-within .plot-count {
+.research-card:hover .plot-preview,
+.research-card:focus-within .plot-preview {
   opacity: 0;
 }
 
@@ -587,9 +654,41 @@ footer.site-footer > .container-fluid {
 }
 
 .research-card summary {
+  color: var(--text);
+  font-weight: 400;
+  cursor: pointer;
+  list-style: none;
+}
+
+.research-card summary::marker,
+.research-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.description-toggle .summary-text {
+  color: var(--text);
+}
+
+.description-toggle .read-more,
+.description-toggle .read-less {
   color: var(--theme);
   font-weight: 700;
-  cursor: pointer;
+}
+
+.description-toggle .read-less {
+  display: none;
+}
+
+.description-toggle[open] .read-more {
+  display: none;
+}
+
+.description-toggle[open] .summary-text {
+  display: none;
+}
+
+.description-toggle[open] .read-less {
+  display: inline;
 }
 
 .research-card details p {
@@ -724,8 +823,71 @@ footer.site-footer > .container-fluid {
   transform: rotate(180deg);
 }
 
+.paper-year-title {
+  margin-top: 20pt;
+  font-size: 20pt;
+}
+
+.paper-year-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+  min-height: 128px;
+  padding: 10px 0 0;
+  overflow-x: auto;
+  border-top: 1px solid rgba(21, 101, 183, 0.16);
+}
+
+.paper-year-column {
+  display: flex;
+  flex: 0 0 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 112px;
+}
+
+.paper-year-value {
+  color: var(--muted);
+  font-size: 8pt;
+}
+
+.paper-year-bar {
+  width: 100%;
+  margin: 4px 0 6px;
+  background: rgba(21, 101, 183, 0.72);
+}
+
+.paper-year-label {
+  color: var(--muted);
+  font-size: 8pt;
+  line-height: 1.1;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
 .publication-list-title {
   margin-top: 30pt;
+}
+
+.collaborator-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12pt 0 0;
+  padding: 14px;
+  background: rgba(21, 101, 183, 0.06);
+  border: 1px solid rgba(21, 101, 183, 0.18);
+}
+
+.collaborator-chip {
+  display: inline-block;
+  padding: 5px 7px;
+  color: var(--text);
+  background: #ffffff;
+  border: 1px solid var(--line);
+  font-size: 10pt;
+  line-height: 1.35;
 }
 
 .publication-list {
@@ -940,6 +1102,25 @@ footer.site-footer > .container-fluid {
   line-height: 1.5;
 }
 
+.talk-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin: 24pt 0 0;
+}
+
+.talk-card {
+  min-height: 100%;
+  padding: 18px 20px;
+  background: rgba(21, 101, 183, 0.05);
+  border: 1px solid rgba(21, 101, 183, 0.22);
+}
+
+.talk-card h3 {
+  margin-top: 0;
+  color: var(--theme);
+}
+
 .badge-year {
   padding: 0;
   color: var(--theme) !important;
@@ -1029,7 +1210,9 @@ footer.site-footer .footer-title {
   .research-card,
   .publication-dashboard,
   .home-facts-grid,
-  .announcement-layout {
+  .announcement-layout,
+  .interest-card-grid,
+  .talk-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1039,12 +1222,13 @@ footer.site-footer .footer-title {
   }
 
   .announcement-track-wrap {
+    height: 184px;
     border-left: 0;
     border-top: 3px solid var(--theme);
   }
 
   .announcement-track a {
-    min-height: 52px;
+    min-height: 46px;
     padding: 0 18px;
     font-size: 11pt;
   }
