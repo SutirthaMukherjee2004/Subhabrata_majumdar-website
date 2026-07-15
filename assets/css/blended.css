@@ -363,6 +363,279 @@ footer.site-footer > .container-fluid {
   margin: 0 -12px;
 }
 
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px 24px;
+  margin: 24pt 0 0;
+}
+
+.research-card {
+  display: grid;
+  grid-template-columns: 44% 56%;
+  min-height: 100%;
+  background: #ffffff;
+  border: 1px solid var(--line);
+}
+
+.publication-image {
+  position: relative;
+  min-height: 260px;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #ffffff;
+  border-right: 1px solid var(--line);
+}
+
+.publication-image > img,
+.hover-plots img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  object-fit: contain;
+  background: #ffffff;
+}
+
+.hover-plots {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  background: #ffffff;
+  transition: opacity 120ms linear;
+}
+
+.hover-plots img {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.research-card:hover .hover-plots,
+.research-card:focus-within .hover-plots {
+  opacity: 1;
+}
+
+.research-card:hover .hover-plots img:nth-child(1),
+.research-card:focus-within .hover-plots img:nth-child(1) {
+  animation: plotCycle 2.4s infinite;
+}
+
+.research-card:hover .hover-plots img:nth-child(2),
+.research-card:focus-within .hover-plots img:nth-child(2) {
+  animation: plotCycle 2.4s 0.8s infinite;
+}
+
+.research-card:hover .hover-plots img:nth-child(3),
+.research-card:focus-within .hover-plots img:nth-child(3) {
+  animation: plotCycle 2.4s 1.6s infinite;
+}
+
+@keyframes plotCycle {
+  0%,
+  30% {
+    opacity: 1;
+  }
+
+  34%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.research-card-body {
+  padding: 18px 20px 22px;
+}
+
+.research-card h3 {
+  margin-top: 0;
+  font-size: 22pt;
+}
+
+.research-card details {
+  margin: 12pt 0 0;
+  padding: 9px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.research-card summary {
+  color: var(--theme);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.research-card details p {
+  margin-top: 9px;
+  font-size: 12pt;
+}
+
+.paper-block {
+  margin-top: 14pt;
+}
+
+.paper-block > span {
+  display: block;
+  color: var(--theme);
+  font-weight: 700;
+}
+
+.paper-block ol {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+.paper-block li {
+  margin-bottom: 8px;
+  font-size: 12pt;
+  line-height: 1.45;
+}
+
+.publication-dashboard {
+  display: grid;
+  grid-template-columns: 34% 66%;
+  gap: 24px;
+  margin: 24pt 0 0;
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.publication-profile h3,
+.citation-panel h3 {
+  margin-top: 0;
+}
+
+.profile-meta,
+.source-links {
+  font-size: 12pt;
+  text-align: left;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.metric-box {
+  min-height: 92px;
+  padding: 14px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.metric-value,
+.metric-label {
+  display: block;
+  font-family: Raleway, Arial, sans-serif;
+}
+
+.metric-value {
+  color: var(--theme);
+  font-size: 22pt;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.metric-label {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 11pt;
+}
+
+.citation-panel {
+  min-width: 0;
+}
+
+.citation-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  min-height: 222px;
+  padding: 12px 0 0;
+  overflow-x: auto;
+}
+
+.citation-column {
+  display: flex;
+  flex: 0 0 34px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 204px;
+}
+
+.citation-value {
+  min-height: 18px;
+  color: var(--muted);
+  font-size: 9pt;
+  line-height: 1.1;
+}
+
+.citation-bar {
+  width: 100%;
+  margin: 4px 0 6px;
+  background: var(--theme);
+}
+
+.citation-year {
+  color: var(--muted);
+  font-size: 8pt;
+  line-height: 1.1;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.publication-list-title {
+  margin-top: 30pt;
+}
+
+.publication-list {
+  margin: 18pt 0 0;
+  padding-left: 22px;
+}
+
+.publication-item {
+  padding: 0 0 18px 4px;
+  border-bottom: 1px solid var(--line);
+}
+
+.publication-item + .publication-item {
+  margin-top: 18px;
+}
+
+.publication-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.publication-title {
+  color: var(--text);
+  font-family: "DM Serif Text", Georgia, serif;
+  font-size: 17pt;
+  line-height: 1.35;
+}
+
+.publication-year {
+  flex: 0 0 auto;
+  color: var(--theme);
+  font-weight: 700;
+}
+
+.publication-meta,
+.publication-links {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 11pt;
+  line-height: 1.45;
+  text-align: left;
+}
+
 .highlight {
   display: grid;
   grid-template-columns: 41.666% 58.334%;
@@ -606,8 +879,26 @@ footer.site-footer .footer-title {
   }
 
   .hero-layout,
-  .highlight {
+  .highlight,
+  .research-grid,
+  .research-card,
+  .publication-dashboard {
     grid-template-columns: 1fr;
+  }
+
+  .publication-image {
+    min-height: 210px;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .publication-head {
+    display: block;
+  }
+
+  .publication-year {
+    display: block;
+    margin-top: 4px;
   }
 
   .hero-media,
