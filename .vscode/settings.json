@@ -1,5 +1,5 @@
 {
-    "livePreview.defaultPreviewPath": "/index.html",
+    "livePreview.defaultPreviewPath": "/site/index.html",
     "livePreview.openPreviewTarget": "Embedded Preview",
     "livePreview.portNumber": 3001,
     "livePreview.autoRefreshPreview": "On Changes to Saved Files",
