@@ -267,60 +267,56 @@ footer.site-footer > .container-fluid {
   border: 0;
 }
 
-.hero-interests {
-  margin-top: 20pt;
-}
-
-.hero-interests h2 {
-  margin-top: 0;
-  font-size: 24pt;
-}
-
-.interest-card-grid {
+.profile-icon-links {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
-  margin-top: 12px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  margin: 14px 0 0;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
 }
 
-.interest-card {
-  min-height: 116px;
-  padding: 12px;
-  background: rgba(21, 101, 183, 0.05);
-  border: 1px solid rgba(21, 101, 183, 0.22);
-}
-
-.interest-card h3 {
-  margin-top: 0;
+.profile-icon-links a {
+  display: flex;
+  min-height: 58px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: var(--theme);
-  font-size: 15pt;
+  background: #ffffff;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  font-size: 9pt;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
 }
 
-.interest-card .fact-list {
-  margin-top: 6px;
-  padding-left: 18px;
+.profile-icon-links a:hover,
+.profile-icon-links a:focus {
+  background: rgba(21, 101, 183, 0.06);
 }
 
-.interest-card .fact-list li {
-  margin-bottom: 3px;
-  font-size: 10.5pt;
-  line-height: 1.35;
+.profile-icon-links .material-icons {
+  font-size: 20px;
+  line-height: 1;
 }
 
-.home-facts-grid {
+.hero-facts-grid {
   display: grid;
   grid-template-columns: 50% 50%;
-  gap: 24px;
-  padding: 24px 0;
+  gap: 18px;
+  margin-top: 22pt;
+  padding: 18px 0;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 
-.home-facts-column {
+.hero-facts-column {
   padding: 0 12px;
 }
 
-.home-facts-column h2,
+.hero-facts-column h2,
 .announcement-layout h2 {
   margin-top: 0;
   font-size: 28pt;
@@ -1209,16 +1205,19 @@ footer.site-footer .footer-title {
   .research-grid,
   .research-card,
   .publication-dashboard,
-  .home-facts-grid,
+  .hero-facts-grid,
   .announcement-layout,
-  .interest-card-grid,
   .talk-grid {
     grid-template-columns: 1fr;
   }
 
-  .home-facts-column,
+  .hero-facts-column,
   .announcement-layout h2 {
     padding: 0;
+  }
+
+  .profile-icon-links {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .announcement-track-wrap {
