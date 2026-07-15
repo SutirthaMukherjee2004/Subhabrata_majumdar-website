@@ -563,8 +563,8 @@ footer.site-footer > .container-fluid {
   z-index: 2;
   display: flex;
   align-items: stretch;
-  width: min(58%, 218px);
-  height: 64px;
+  width: min(68%, 276px);
+  height: 82px;
   overflow: hidden;
   pointer-events: none;
   background: #ffffff;
@@ -582,13 +582,13 @@ footer.site-footer > .container-fluid {
 
 .plot-count {
   display: flex;
-  flex: 0 0 46px;
+  flex: 0 0 54px;
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  background: rgba(21, 101, 183, 0.88);
+  background: rgba(96, 96, 96, 0.9);
   font-weight: 700;
-  font-size: 18pt;
+  font-size: 20pt;
   line-height: 1.2;
   text-align: center;
 }
