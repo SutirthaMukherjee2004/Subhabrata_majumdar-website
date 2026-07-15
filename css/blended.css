@@ -1,0 +1,186 @@
+/* ============================================================
+   blended.css — custom theme for the Subha Majumdar group site
+   Blends IISER-Mohali (Bootstrap + Material, indigo) with a
+   bdasgupta.com-style modern hero / highlights / gallery look.
+   ============================================================ */
+
+:root{
+  --brand:#3f51b5;          /* primary indigo (IISER)            */
+  --brand-dark:#1a2a6c;     /* deep space blue for hero gradient */
+  --accent:#f5b700;         /* warm gold accent                  */
+  --ink:#222;
+  --muted:#666;
+  --paper:#ffffff;
+  --soft:#f5f6fa;
+}
+
+body{
+  color:var(--ink);
+  font-family:'Source Sans 3','Segoe UI',Helvetica,Arial,sans-serif;
+  background:var(--paper);
+  padding-bottom:70px;            /* room for fixed footer */
+}
+h1,h2,h3,h4,.brandfont{
+  font-family:'Poppins','Segoe UI',Helvetica,Arial,sans-serif;
+}
+
+/* ---------- navbar ---------- */
+.navbar-inverse{
+  background:var(--brand);
+  border:0;
+  border-radius:0;
+  margin-bottom:0;
+  box-shadow:0 2px 6px rgba(0,0,0,.18);
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a{ color:#fff; font-weight:500; }
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover{
+  background:rgba(255,255,255,.14); color:#fff;
+}
+.navbar-brand{ font-weight:700; letter-spacing:.3px; }
+.dropdown-menu>li>a{ color:var(--ink); }
+.dropdown-menu>li>a:hover{ background:var(--soft); color:var(--brand); }
+
+/* ---------- hero ---------- */
+.hero{
+  position:relative;
+  color:#fff;
+  background:linear-gradient(135deg,var(--brand-dark) 0%,var(--brand) 70%);
+  padding:70px 0 60px;
+  text-align:center;
+  overflow:hidden;
+}
+.hero:after{        /* subtle starfield dots */
+  content:"";position:absolute;inset:0;
+  background-image:radial-gradient(#ffffff22 1px,transparent 1px);
+  background-size:22px 22px;opacity:.5;
+}
+.hero .container{ position:relative; z-index:2; }
+.hero .hello{ font-size:22px; letter-spacing:2px; text-transform:uppercase; opacity:.85; }
+.hero h1{ font-size:46px; font-weight:700; margin:10px 0 6px; }
+.hero .sub{ font-size:19px; font-weight:300; opacity:.92; }
+.hero .hero-photo{
+  width:160px;height:160px;border-radius:50%;object-fit:cover;
+  border:5px solid rgba(255,255,255,.85);box-shadow:0 6px 22px rgba(0,0,0,.35);
+  margin-bottom:18px;background:#fff;
+}
+.hero .btn-hero{
+  margin:18px 6px 0;background:#fff;color:var(--brand);font-weight:600;
+  border-radius:30px;padding:9px 22px;
+}
+.hero .btn-hero.ghost{ background:transparent;color:#fff;border:2px solid #fff; }
+
+/* ---------- section scaffolding ---------- */
+.section{ padding:48px 0; }
+.section.alt{ background:var(--soft); }
+.section-title{ text-align:center; margin-bottom:8px; color:var(--brand); font-weight:700; }
+.section-sub{ text-align:center; color:var(--muted); margin-bottom:34px; }
+.divider{ width:64px;height:4px;background:var(--accent);border:0;margin:14px auto 26px;border-radius:3px; }
+
+/* ---------- research / theme cards (IISER style, modernised) ---------- */
+.card{
+  background:#fff;border:1px solid #ececec;border-radius:12px;
+  padding:26px 22px;height:100%;
+  transition:transform .18s ease,box-shadow .18s ease;
+  box-shadow:0 2px 8px rgba(0,0,0,.05);
+}
+.card:hover{ transform:translateY(-5px); box-shadow:0 12px 26px rgba(63,81,181,.16); }
+.card .card-icon{
+  width:88px;height:88px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 16px;
+  background:var(--soft);border:3px solid var(--brand);
+}
+.card h4{ color:var(--brand); text-align:center; min-height:46px; }
+.card p{ color:#444; text-align:justify; font-size:15px; }
+.card-grid{ margin-top:10px; }
+.card-grid .col-md-4,.card-grid .col-md-6{ margin-bottom:26px; }
+
+/* ---------- research highlights (bdasgupta style) ---------- */
+.highlight{
+  display:flex;gap:26px;align-items:flex-start;
+  padding:26px 0;border-bottom:1px solid #eee;
+}
+.highlight:last-child{ border-bottom:0; }
+.highlight img{
+  width:260px;height:170px;object-fit:cover;border-radius:10px;flex:0 0 260px;
+  background:var(--soft);border:1px solid #e3e3e3;
+}
+.highlight .h-body h3{ margin-top:0;color:var(--brand); }
+.highlight .h-body .pub{ font-size:14px;color:var(--muted);margin-top:8px; }
+.highlight .h-body a{ color:var(--brand); }
+@media(max-width:767px){
+  .highlight{flex-direction:column;}
+  .highlight img{width:100%;flex-basis:auto;}
+}
+
+/* ---------- profile / about ---------- */
+.profile-photo{
+  width:100%;max-width:280px;border-radius:14px;display:block;margin:0 auto 18px;
+  box-shadow:0 6px 18px rgba(0,0,0,.15);
+}
+.label-head{
+  display:inline-block;color:var(--brand);background:#eef0fb;
+  border:1px solid var(--brand);border-radius:6px;
+  padding:4px 12px;font-weight:600;margin:22px 0 10px;
+}
+.cv-btn{ background:var(--brand);color:#fff;border-radius:30px; }
+
+/* ---------- affiliation logo grid ---------- */
+.logo-grid{ display:flex;flex-wrap:wrap;justify-content:center;gap:34px;align-items:center;margin-top:10px; }
+.logo-grid img{ height:64px;filter:grayscale(.2);opacity:.9; }
+.logo-box{
+  height:64px;min-width:120px;display:flex;align-items:center;justify-content:center;
+  border:1px dashed #bbb;border-radius:8px;color:#999;padding:0 16px;font-size:13px;
+}
+
+/* ---------- team grid ---------- */
+.member{ text-align:center;margin-bottom:30px; }
+.member img,.member .member-ph{
+  width:130px;height:130px;border-radius:50%;object-fit:cover;margin:0 auto 12px;
+  border:3px solid var(--brand);background:var(--soft);
+  display:flex;align-items:center;justify-content:center;color:#9aa;font-size:34px;
+}
+.member h4{ margin:6px 0 2px;color:var(--ink); }
+.member .role{ color:var(--brand);font-weight:600;font-size:14px; }
+.member .meta{ color:var(--muted);font-size:13px; }
+
+/* ---------- gallery (Beyond Science / Off the Easel) ---------- */
+.gallery{ display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px; }
+.gallery figure{ margin:0;border-radius:10px;overflow:hidden;background:var(--soft);box-shadow:0 2px 8px rgba(0,0,0,.08); }
+.gallery figure img,.gallery .ph{
+  width:100%;height:200px;object-fit:cover;display:block;
+  align-items:center;justify-content:center;color:#aab;
+}
+.gallery .ph{ display:flex;background:linear-gradient(135deg,#e9ecf6,#dfe3f3); }
+.gallery figcaption{ padding:10px 12px;font-size:14px;color:#555; }
+
+/* ---------- news feed ---------- */
+.news-item{ padding:16px 0;border-bottom:1px solid #eee;display:flex;gap:18px; }
+.news-item .date{ flex:0 0 120px;color:var(--brand);font-weight:600;font-size:14px; }
+.news-item:last-child{ border-bottom:0; }
+
+/* ---------- teaching archive ---------- */
+.course-table{ width:100%; }
+.course-table th{ color:var(--brand); border-bottom:2px solid var(--brand); }
+.course-year{ font-weight:700;color:var(--accent);font-size:15px; }
+
+/* ---------- tables / misc ---------- */
+.pub-list li{ margin-bottom:16px;line-height:1.5; }
+.pub-list .badge-year{ background:var(--brand); }
+.placeholder-note{
+  background:#fff8e1;border:1px solid #ffe082;border-radius:8px;
+  padding:10px 14px;color:#8a6d00;font-size:14px;margin:18px 0;
+}
+
+/* ---------- footer ---------- */
+footer.site-footer{
+  background:var(--brand);color:#fff;border:0;border-radius:0;margin:0;
+}
+footer.site-footer a{ color:#fff;text-decoration:underline; }
+
+/* ---------- scroll-top button ---------- */
+.custom-scrolltop{
+  width:46px;height:46px;line-height:46px;text-align:center;border-radius:50%;
+  background:var(--brand);color:#fff;box-shadow:0 4px 12px rgba(0,0,0,.3);
+}
