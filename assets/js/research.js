@@ -13,40 +13,51 @@
     return node;
   }
 
+  function formatNumber(value) {
+    var number = Number(value || 0);
+    return number.toLocaleString("en-US");
+  }
+
   function renderProfile() {
     var target = document.getElementById("publicationProfile");
-    if (!target || !data.profile) return;
+    if (!target) return;
 
     var papers = data.papers || [];
-    var inspireCitations = papers.reduce(function (total, paper) {
-      return total + (paper.citations || 0);
-    }, 0);
+    var scholar = data.googleScholar || {};
+    var inspire = data.inspire || {};
     var stats = [
-      ["INSPIRE papers", papers.length],
-      ["INSPIRE citations", inspireCitations],
-      ["OpenAlex works", data.profile.worksCount],
-      ["OpenAlex citations", data.profile.citedByCount],
-      ["OpenAlex h-index", data.profile.hIndex],
-      ["OpenAlex i10-index", data.profile.i10Index]
+      ["Google Scholar articles", scholar.paperCount || papers.length],
+      ["Google Scholar citations", scholar.citedBy],
+      ["Scholar h-index", scholar.hIndex],
+      ["Scholar i10-index", scholar.i10Index],
+      ["Since 2021 citations", scholar.citedBySince2021],
+      ["INSPIRE papers", inspire.paperCount],
+      ["INSPIRE citations", inspire.citations],
+      ["Scholar-INSPIRE matches", inspire.matchedGoogleScholarPapers]
     ];
 
     target.innerHTML = "";
-    var heading = el("h3", null, data.profile.name);
-    var meta = el("p", "profile-meta", data.profile.lastKnownInstitution + " · " + data.profile.source + " profile");
+    var heading = el("h3", null, scholar.name || (data.profile && data.profile.name) || "Subhabrata Majumdar");
+    var metaParts = [];
+    if (scholar.affiliation) metaParts.push(scholar.affiliation);
+    if (scholar.verifiedEmailDomain) metaParts.push("Verified email at " + scholar.verifiedEmailDomain);
+    if (scholar.fetched) metaParts.push("Fetched " + scholar.fetched);
+    var meta = el("p", "profile-meta", metaParts.join(" · "));
+    var interests = el("p", "profile-interests", (scholar.interests || []).join(" · "));
     var grid = el("div", "metric-grid");
 
     stats.forEach(function (item) {
       var box = el("div", "metric-box");
-      box.appendChild(el("span", "metric-value", item[1]));
+      box.appendChild(el("span", "metric-value", formatNumber(item[1])));
       box.appendChild(el("span", "metric-label", item[0]));
       grid.appendChild(box);
     });
 
     var links = el("p", "source-links");
     [
-      ["OpenAlex", data.links && data.links.openalex],
+      ["Google Scholar", data.links && data.links.googleScholar],
       ["INSPIRE", data.links && data.links.inspire],
-      ["Google Scholar search", data.links && data.links.googleScholarSearch]
+      ["OpenAlex", data.links && data.links.openalex]
     ].forEach(function (item, index) {
       if (!item[1]) return;
       if (index) links.appendChild(document.createTextNode(" · "));
@@ -59,27 +70,28 @@
 
     target.appendChild(heading);
     target.appendChild(meta);
+    if (interests.textContent) target.appendChild(interests);
     target.appendChild(grid);
     target.appendChild(links);
   }
 
   function renderChart() {
     var target = document.getElementById("citationChart");
-    var rows = data.citationYears || [];
+    var rows = (data.googleScholar && data.googleScholar.citationYears) || data.citationYears || [];
     if (!target || !rows.length) return;
 
     var max = rows.reduce(function (acc, row) {
-      return Math.max(acc, row.cited_by_count || 0);
+      return Math.max(acc, row.citations || row.cited_by_count || 0);
     }, 1);
 
     target.innerHTML = "";
     rows.forEach(function (row) {
       var column = el("div", "citation-column");
-      var value = row.cited_by_count || 0;
+      var value = row.citations || row.cited_by_count || 0;
       var bar = el("span", "citation-bar");
       bar.style.height = Math.max(4, Math.round((value / max) * 160)) + "px";
       bar.title = row.year + ": " + value + " citations";
-      column.appendChild(el("span", "citation-value", value));
+      column.appendChild(el("span", "citation-value", formatNumber(value)));
       column.appendChild(bar);
       column.appendChild(el("span", "citation-year", row.year));
       target.appendChild(column);
@@ -96,7 +108,7 @@
       var item = el("li", "publication-item");
       var head = el("div", "publication-head");
       var title = el("a", "publication-title", paper.title);
-      title.href = paper.url;
+      title.href = paper.googleScholarUrl || paper.url;
       title.target = "_blank";
       title.rel = "noopener";
 
@@ -104,8 +116,22 @@
       head.appendChild(el("span", "publication-year", paper.year || "n.d."));
 
       var meta = el("p", "publication-meta", paper.authorText || "");
+      var venue = el("p", "publication-venue", paper.venue || "");
       var details = el("p", "publication-links");
-      details.appendChild(el("span", null, (paper.citations || 0) + " INSPIRE citations"));
+      var scholarCitations = el("span", "citation-pill", formatNumber(paper.googleScholarCitations) + " Google Scholar citations");
+      details.appendChild(scholarCitations);
+      if (paper.inspireCitations != null) {
+        details.appendChild(document.createTextNode(" · "));
+        details.appendChild(el("span", "citation-pill", formatNumber(paper.inspireCitations) + " INSPIRE citations"));
+      }
+      if (paper.googleScholarCitationsUrl) {
+        details.appendChild(document.createTextNode(" · "));
+        var citedBy = el("a", null, "Scholar cited-by");
+        citedBy.href = paper.googleScholarCitationsUrl;
+        citedBy.target = "_blank";
+        citedBy.rel = "noopener";
+        details.appendChild(citedBy);
+      }
       if (paper.arxiv) {
         details.appendChild(document.createTextNode(" · "));
         var arxiv = el("a", null, "arXiv:" + paper.arxiv);
@@ -130,9 +156,16 @@
         inspire.rel = "noopener";
         details.appendChild(inspire);
       }
+      details.appendChild(document.createTextNode(" · "));
+      var scholarLink = el("a", null, "Google Scholar");
+      scholarLink.href = paper.googleScholarUrl || (data.links && data.links.googleScholar);
+      scholarLink.target = "_blank";
+      scholarLink.rel = "noopener";
+      details.appendChild(scholarLink);
 
       item.appendChild(head);
       item.appendChild(meta);
+      if (venue.textContent) item.appendChild(venue);
       item.appendChild(details);
       target.appendChild(item);
     });
