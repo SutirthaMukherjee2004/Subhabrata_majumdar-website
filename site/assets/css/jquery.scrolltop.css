@@ -3,9 +3,9 @@
   position: fixed;
   right: 20px;
   bottom: 70px;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -13,11 +13,11 @@
   font-size: 3em;
   text-align: center;
   text-decoration: none;
-  background-color: rgba(63, 81, 181, 1);
+  background-color: #1565b7;
   color: #ffffff;
-  -moz-box-shadow: 0px 0px 5px 2px #999999;
-  -webkit-box-shadow: 0px 0px 5px 2px #999999;
-  box-shadow: 0px 0px 5px 2px #999999;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
   visibility: hidden;
   opacity: 0;
   -moz-transition: 0.5s;
