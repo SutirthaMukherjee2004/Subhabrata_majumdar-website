@@ -32,6 +32,7 @@
           <ul class="dropdown-menu">
             <li><a href="research-areas.html">Research Area</a></li>
             <li><a href="research-highlights.html">Highlights</a></li>
+            <li><a href="publications.html">Publications</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -68,21 +69,16 @@
 <section class="section">
   <div class="container">
     <h2 class="section-title">Publications</h2>
-    <p class="section-sub">Full lists on
-      <a href="#" target="_blank">NASA ADS</a>,
-      <a href="#" target="_blank">INSPIRE-HEP</a> and
-      <a href="#" target="_blank">Google Scholar</a>.</p>
-    <hr class="divider">
-    <div class="row">
-      <div class="col-md-5">
-        <h4 style="color:var(--brand);">Publications per year</h4>
-        <div style="display:flex;align-items:center;gap:10px;margin:6px 0;"><span class="course-year" style="width:54px;">2026</span><div style="background:var(--brand);height:18px;width:66%;"></div><span style="color:#666;">6</span></div><div style="display:flex;align-items:center;gap:10px;margin:6px 0;"><span class="course-year" style="width:54px;">2025</span><div style="background:var(--brand);height:18px;width:100%;"></div><span style="color:#666;">9</span></div><div style="display:flex;align-items:center;gap:10px;margin:6px 0;"><span class="course-year" style="width:54px;">2024</span><div style="background:var(--brand);height:18px;width:77%;"></div><span style="color:#666;">7</span></div><div style="display:flex;align-items:center;gap:10px;margin:6px 0;"><span class="course-year" style="width:54px;">2023</span><div style="background:var(--brand);height:18px;width:88%;"></div><span style="color:#666;">8</span></div><div style="display:flex;align-items:center;gap:10px;margin:6px 0;"><span class="course-year" style="width:54px;">2022</span><div style="background:var(--brand);height:18px;width:55%;"></div><span style="color:#666;">5</span></div><div style="display:flex;align-items:center;gap:10px;margin:6px 0;"><span class="course-year" style="width:54px;">2021</span><div style="background:var(--brand);height:18px;width:66%;"></div><span style="color:#666;">6</span></div>
-      </div>
-      <div class="col-md-7">
-        <h4 style="color:var(--brand);">Selected papers</h4>
-        <ol class="pub-list"><li><span class="badge badge-year">2026</span> &nbsp;Author, A., <strong>Majumdar, S.</strong>, et al. &ldquo;[Paper title placeholder].&rdquo; <em>[Journal]</em> (2026). <a href="#" target="_blank">ADS</a> &middot; <a href="#" target="_blank">arXiv</a></li><li><span class="badge badge-year">2025</span> &nbsp;Author, A., <strong>Majumdar, S.</strong>, et al. &ldquo;[Paper title placeholder].&rdquo; <em>[Journal]</em> (2025). <a href="#" target="_blank">ADS</a> &middot; <a href="#" target="_blank">arXiv</a></li><li><span class="badge badge-year">2024</span> &nbsp;Author, A., <strong>Majumdar, S.</strong>, et al. &ldquo;[Paper title placeholder].&rdquo; <em>[Journal]</em> (2024). <a href="#" target="_blank">ADS</a> &middot; <a href="#" target="_blank">arXiv</a></li><li><span class="badge badge-year">2023</span> &nbsp;Author, A., <strong>Majumdar, S.</strong>, et al. &ldquo;[Paper title placeholder].&rdquo; <em>[Journal]</em> (2023). <a href="#" target="_blank">ADS</a> &middot; <a href="#" target="_blank">arXiv</a></li><li><span class="badge badge-year">2022</span> &nbsp;Author, A., <strong>Majumdar, S.</strong>, et al. &ldquo;[Paper title placeholder].&rdquo; <em>[Journal]</em> (2022). <a href="#" target="_blank">ADS</a> &middot; <a href="#" target="_blank">arXiv</a></li><li><span class="badge badge-year">2021</span> &nbsp;Author, A., <strong>Majumdar, S.</strong>, et al. &ldquo;[Paper title placeholder].&rdquo; <em>[Journal]</em> (2021). <a href="#" target="_blank">ADS</a> &middot; <a href="#" target="_blank">arXiv</a></li></ol>
+    <p class="section-sub">Publication and citation data fetched from the verified OpenAlex and INSPIRE author records.</p>
+    <div class="publication-dashboard">
+      <div class="publication-profile" id="publicationProfile"></div>
+      <div class="citation-panel">
+        <h3>Citations by year</h3>
+        <div class="citation-chart" id="citationChart" aria-label="Citation chart"></div>
       </div>
     </div>
+    <h3 class="publication-list-title">Articles</h3>
+    <ol class="publication-list" id="publicationList"></ol>
   </div>
 </section><footer class="navbar site-footer">
   <div class="container-fluid">
@@ -95,4 +91,6 @@
   </div>
 </footer>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/research-data.js"></script>
+<script src="assets/js/research.js"></script>
 </body></html>
