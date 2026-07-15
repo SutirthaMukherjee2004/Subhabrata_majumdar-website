@@ -56,8 +56,7 @@
     var links = el("p", "source-links");
     [
       ["Google Scholar", data.links && data.links.googleScholar],
-      ["INSPIRE", data.links && data.links.inspire],
-      ["OpenAlex", data.links && data.links.openalex]
+      ["INSPIRE", data.links && data.links.inspire]
     ].forEach(function (item, index) {
       if (!item[1]) return;
       if (index) links.appendChild(document.createTextNode(" · "));
@@ -98,6 +97,43 @@
     });
   }
 
+  function renderPaperYears() {
+    var target = document.getElementById("paperYearChart");
+    var rows = (data.googleScholar && data.googleScholar.papersByYear) || [];
+    if (!target || !rows.length) return;
+
+    var max = rows.reduce(function (acc, row) {
+      return Math.max(acc, row.papers || 0);
+    }, 1);
+
+    target.innerHTML = "";
+    rows.forEach(function (row) {
+      var column = el("div", "paper-year-column");
+      var value = row.papers || 0;
+      var bar = el("span", "paper-year-bar");
+      bar.style.height = Math.max(4, Math.round((value / max) * 78)) + "px";
+      bar.title = row.year + ": " + value + " papers";
+      column.appendChild(el("span", "paper-year-value", formatNumber(value)));
+      column.appendChild(bar);
+      column.appendChild(el("span", "paper-year-label", row.year));
+      target.appendChild(column);
+    });
+  }
+
+  function renderCollaborators() {
+    var target = document.getElementById("collaboratorList");
+    var collaborators = data.collaborators || [];
+    if (!target || !collaborators.length) return;
+
+    target.innerHTML = "";
+    collaborators.forEach(function (collaborator) {
+      var item = el("span", "collaborator-chip");
+      item.appendChild(el("strong", null, collaborator.name));
+      item.appendChild(document.createTextNode(" " + formatNumber(collaborator.paperCount) + " papers"));
+      target.appendChild(item);
+    });
+  }
+
   function renderPublications() {
     var target = document.getElementById("publicationList");
     var papers = data.papers || [];
@@ -115,7 +151,9 @@
       head.appendChild(title);
       head.appendChild(el("span", "publication-year", paper.year || "n.d."));
 
-      var meta = el("p", "publication-meta", paper.authorText || "");
+      var authorLine = paper.fullAuthorText || paper.authorText || "";
+      var meta = el("p", "publication-meta", authorLine ? "Authors / collaborators: " + authorLine : "");
+      if (paper.authorSource) meta.title = paper.authorSource;
       var venue = el("p", "publication-venue", paper.venue || "");
       var details = el("p", "publication-links");
       var scholarCitations = el("span", "citation-pill", formatNumber(paper.googleScholarCitations) + " Google Scholar citations");
@@ -164,7 +202,7 @@
       details.appendChild(scholarLink);
 
       item.appendChild(head);
-      item.appendChild(meta);
+      if (meta.textContent) item.appendChild(meta);
       if (venue.textContent) item.appendChild(venue);
       item.appendChild(details);
       target.appendChild(item);
@@ -174,6 +212,8 @@
   document.addEventListener("DOMContentLoaded", function () {
     renderProfile();
     renderChart();
+    renderPaperYears();
+    renderCollaborators();
     renderPublications();
   });
 })();
